@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VONS CHICKEN</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/header_footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+</head>
+
+<body>
+  <div id="here"></div>
+  <header class="header">
+    <div class="dropdown">
+      <nav>
+        <h1 class="logo"><a href="index.html"><img src="images/vons_logo.png" alt="본스치킨로고"></a></h1>
+        <ul>
+          <li><a href="#lo"><strong>매장찾기</strong></a></li>
+          <li><a href="#me"><strong>차림표</strong></a>
+            <ul>
+              <li><a href="menu1.html">로스트</a></li>
+              <li><a href="menu2.html">크리스피</a></li>
+              <li><a href="menu3.html">사이드</a></li>
+            </ul>
+          </li>
+          <li><a href="#with"><strong>창업안내</strong></a>
+            <ul>
+              <li><a href="system.html">본스 시스템</a></li>
+              <li><a href="successPoint.html">성공포인트</a></li>
+              <li><a href="process.html">창업절차</a></li>
+              <li><a href="consulting.html">상담신청</a></li>
+            </ul>
+          </li>
+          <li><a href="#our"><strong>우리 이야기</strong></a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="gnbMo">
+      <a href="#"><i class="fa fa-bars" aria-hidden="true">
+        
+      </i></a>
+    </nav>
+  </header>
+  <div class="youtube">
+    <iframe src="https://www.youtube.com/embed/sxTjCaeiq0k?autoplay=1&mute=1" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <br id="lo"><br><br><br><br>
+  <p class="letter"><i>LOCATION</i></p>
+  <section class="location">
+    <link rel="stylesheet" type="text/css" href="../common/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../common/css/contents.css" />
+    <div class="mConts mShop">
+      <dl class="mTitle">
+        <dt>매장찾기</dt>
+        <dd>전국 본스치킨 매장을 빠르고 편하게 찾아보세요</dd>
+      </dl>
+      <div class="shopSch">
+        <div class="inBox">
+          <dl>
+            <dt>지역</dt>
+            <dd class="two">
+              <select class="select area1" name="areaidx" id="areaidx">
+                <option value="">시,도 선택</option>
+                <option value='10'>서울</option>
+                <option value='16'>부산</option>
+                <option value='13'>대구</option>
+                <option value='1'>인천</option>
+                <option value='14'>광주</option>
+                <option value='12'>대전</option>
+                <option value='15'>울산</option>
+                <option value='2'>강원</option>
+                <option value='9'>경기</option>
+                <option value='7'>경남</option>
+                <option value='4'>경북</option>
+                <option value='6'>전남</option>
+                <option value='5'>전북</option>
+                <option value='8'>제주</option>
+                <option value='3'>충남</option>
+                <option value='11'>충북</option>
+                <option value='17'>세종</option>
+              </select>
+              <select class="select area2" name="areadetailidx" id="areadetailidx" setVal="">
+                <option value="">구,군 선택</option>
+                <option value='10'>송파구</option>
+                <option value='16'>강남구</option>
+                <option value='13'>서초구</option>
+                <option value='1'>관악구</option>
+                <option value='14'>강동구</option>
+                <option value='12'>중구</option>
+                <option value='15'>성동구</option>
+                <option value='2'>기타</option>
+              </select>
+            </dd>
+          </dl>
+          <dl>
+            <dt>매장명</dt>
+            <dd><input type="text" id="serstr" name="serstr" value="" placeholder="매장명을 입력해주세요." /></dd>
+          </dl>
+          <a href="map.html">
+            <input type="submit" value="매장찾기">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br id="me"><br><br><br><br>
+  <p class="letter2"><i>MENU</i></p>
+  <section class="menu">
+    <h2 class="title" data-animate="motion"><span class="gold">오븐도 후라이드도 맛있는 본스치킨</span>
+      <br>본스치킨은 인스턴스 식품이 아닌 '요리' 입니다.
+    </h2>
+    <ul class="list">
+      <li class="each">
+        <a href="menu1.html">
+          <div class="img">
+            <img src="images/Roast-menu01.jpg" alt="">
+          </div>
+          <h3 class="title"><span class="gold">Roast Chicken</span>
+            <br>자체 개발 시즈닝으로 24시간 숙성시킨 닭 한마리를<br>
+            오븐에서 구워 담백한 맛이 일품인 본스대표치킨
+          </h3>
+        </a>
+      </li>
+      <li class="each">
+        <a href="menu2.html">
+          <div class="img">
+            <img src="images/crispy-menu01.jpg" alt="">
+          </div>
+          <h3 class="title"><span class="gold">Crispy Chicken</span>
+            <br>100% 국내산 닭고기를 좋은 기름에 고소하고 <br>
+            바삭하게 튀긴 본스 크리스피 치킨
+          </h3>
+        </a>
+      </li>
+      <li class="each">
+        <a href="menu3.html">
+          <div class="img">
+            <img src="images/side-menu01.jpg" alt="">
+          </div>
+          <h3 class="title"><span class="gold">Side Menu</span>
+            <br>본스치킨과 가장 잘 어울리는 특별한 사이드메뉴!
+          </h3>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <br id="with"><br><br><br><br>
+  <p class="letter"><i>WITH US </i></p>
+  <section class="franchise">
+    <h2 class="title"><span class="gold">프랜차이즈</span></h2>
+    <ul class="list">
+      <li class="each">
+        <a href="system.html">
+          <div class="img">
+            <img src="images/FC_icon_system.jpg" alt="">
+          </div>
+          <h3 class="title"><span class="gold">본스 시스템</span>
+            <p class="more">more →</p>
+          </h3>
+        </a>
+      </li>
+      <li class="each">
+        <a href="process.html">
+          <div class="img">
+            <img src="images/FC_icon_successPoint.jpg" alt="">
+          </div>
+          <h3 class="title"><span class="gold">성공포인트</span>
+            <p class="more">more →</p>
+          </h3>
+        </a>
+      </li>
+      <li class="each">
+        <a href="successPoint.html">
+          <div class="img">
+            <img src="images/FC_icon_process.jpg" alt="">
+          </div>
+          <h3 class="title"><span class="gold">창업 절차</span>
+            <p class="more">more →</p>
+          </h3>
+        </a>
+      </li>
+      <li class="each">
+        <a href="consulting.html">
+          <div class="img">
+            <img src="images/FC_icon_consulting.jpg" alt="">
+          </div>
+          <h3 class="title"><span class="gold">상담신청</span>
+            <p class="more">more →</p>
+          </h3>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <br id="our"><br><br><br><br>
+  <p class="letter2"><i>OUR STORY</i></p>
+  <section class="ourStory">
+    <h2 class="title"><span class="gold">‘오븐도 후라이드도 맛있는’ 본스치킨</span></h2>
+    <div class="img">
+      <img src="images/vons_exterior.png" alt="">
+    </div>
+    <div class="txt">
+      <h3 class="title">
+        본스치킨은 닭고기 사육부터, 도계, 가공사업 등 닭고기 계열화 시스템을 갖춘 치킨 전문 프랜차이즈 회사입니다.<br>
+        당사는 고객님들께 건강하고 가장 맛있는 웰빙치킨을 선사하기 위하여 <br> <span class="gold">“농장에서부터 식탁까지"</span>신선한 닭고기 사용 등 품질 관리에 최선을 다하고
+        있습니다.
+        <p><b><a href="history.html" class="moreBtn">read more</a></b></p>
+      </h3>
+    </div>
+  </section>
+  <button class="reset"><a href="#here"> 상단으로 올라가기 ▲  </a></button>
+  <footer>
+    <div class="bottom">
+      <p class="bottom">
+        <span class="bottom1">·법인명(상호) : 비에이지 본스(본스치킨)</span>
+        <span class="bottom1">·주소 : 경기도 성남시 중원구 둔촌대로 519 중일아인스프라츠 3차 605호</span><br>
+        <span class="bottom2"><strong>·사업자등록번호 :</strong> 126-86-80576</span>
+        <span class="bottom2"><strong>·가맹문의.</strong> 031-764-5200</span>
+        <span>·팩스. 031-748-5201</span><br>
+        <span class="copyright">COPYRIGHT(C) 2011 VONS CHICKEN. ALL RIGHTS RESERVED</span>
+      </p>
+    </div>
+  </footer>
+
+</html>
